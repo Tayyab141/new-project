@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#limited-edition">LIMITED EDITION</a></li>
+            <li><a href="#english-books">ENGLISH BOOKS</a></li>
+            <li><a href="#urdu-books">URDU BOOKS</a></li>
+            <li><a href="#authors">AUTHORS</a></li>
+            <li><a href="#medical-books">MEDICAL BOOKS</a></li>
+            <li><a href="#educational-books">EDUCATIONAL BOOKS</a></li>
+            <li><a href="#children-books">CHILDREN BOOKS</a></li>
+        </ul>
+    </nav>
+
+    
+    <h1 class="heading">Search results</h1>
+    <div class="search-container">
+        <label for="search-input" class="label">Search</label>
+        <input type="text" id=" book-name" class="book-name" placeholder="Type book name..." value="Type book name...">
+        <button class="close-button" id="close-button" onclick="clearSearch()">×</button>
+        <button class="search">&#128269;</button>
+    </div>
+     
+    <div class="loading" >Loading...</div>
+    <div class="books-container"></div>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.5/axios.min.js"></script>
+    <script src="./app (2).js"></script>
+</body>
+</html>

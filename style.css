@@ -1,0 +1,201 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: whitesmoke;   
+}
+ 
+.heading{
+  color:  rgb( 166,4,4);
+  text-align: center;
+  font-size: 36px;
+}
+
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
+  margin-top: 80px;
+}
+
+.book-item {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+   
+}
+
+.book-item:hover {
+  transform: translateY(-5px);
+}
+
+.book-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.author-name,
+.book-genre {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.book-cover {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search-container {
+  position: relative;
+  width: 700px;
+  margin-left: 300px;
+  margin-bottom: 30px;
+  
+}
+
+.label {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  margin-bottom: 5px;
+  color: rgb( 166,4,4);
+  font-size: 10px;
+  pointer-events: none;
+}
+
+.book-name {
+  width: 100%;
+  padding: 22px 0px 10px 20px; /* padding-right for search button, padding-left for label space */
+  border: 2px solid rgb( 166,4,4);
+  border-radius: 30px;
+  font-size: 16px;
+  outline: none;
+  color: rgb( 166,4,4);
+  
+   
+    
+}
+
+.book-name:focus {
+  border-color: rgb( 166,4,4);
+   
+}
+.book-name:hover {
+   
+  border: 3px solid rgb( 166,4,4);
+}
+
+.close-button {
+  position: absolute;
+  right: 50px; /* Space for search button */
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: 1px solid rgb( 166,4,4);
+  border-radius: 200px;
+  font-size: 18px;
+  cursor: pointer;
+  color: rgb( 166,4,4);
+}
+
+.close-button:hover {
+  color: rgb( 166,4,4);
+}
+
+.search{
+  position: absolute;
+  right: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  border-left: 1px solid rgb(58, 54, 54);
+  font-size: 18px;
+  cursor: pointer;
+  color:  rgb( 166,4,4);
+}
+
+.search:hover {
+  color: rgb( 166,4,4);
+}
+.loading{
+  display: none;
+  font-size: 36px;
+  color: rgb( 166,4,4);
+}
+
+
+
+
+
+
+
+
+
+
+
+body, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: whitesmoke;
+  padding: 10px 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list a {
+  color: rgb( 166,4,4);
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: rgb( 166,4,4);
+  border-radius: 4px;
+}
+
+
+ 
